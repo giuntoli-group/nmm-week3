@@ -13,7 +13,7 @@ Now, prepare the job script similar to the previously used 'quantum.qsub'. Note 
 
 1b. Based on the knowledge from the last week, prepare and run the band structure calculation. What high-symmetry k-points are relevant for the rectangular Brillouin zone? Does your band structure resemble the one below? What is the difference? Can you think of the possible reason for the discrepancy?
 
-![Test](/images/dos.png)
+![Test](/images/band_wte2.png)
 
 ## Assignment 2
 
