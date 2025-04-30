@@ -11,9 +11,7 @@ We will start with the DFT calculation of monolayer WTe2.
 
 Now, prepare the job script similar to the previously used 'quantum.qsub'. Note that your calculations will be much longer due to the number of electrons and spin-orbit coupling. You will have to adjust your file. You can try first setting time to a few minutes, and check how long each electronic step takes. Estimate your calculation time, change the job script and rerun the calculation.
 
-1b. Based on the knowledge from the last week, prepare and run the band structure calculation. What high-symmetry k-points are relevant for the rectangular Brillouin zone? Does your band structure resemble the one below? What is the difference? Can you think of the possible reason for the discrepancy?
-
-![Test](/images/band_wte2.png)
+1b. Based on the knowledge from the last week, prepare and run the band structure calculation. What high-symmetry k-points are relevant for the rectangular Brillouin zone? Does your band structure resemble the one provided on the slides? What is the difference? Can you think of the possible reason for the discrepancy?
 
 ## Assignment 2
 
