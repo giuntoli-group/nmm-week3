@@ -17,15 +17,10 @@ Now, prepare the job script similar to the previously used 'quantum.qsub'. Note 
 
 ## Assignment 2
 
-Now, we will perform density of states (DOS) calculations for the bulk silicon. 
+Last week, we have explored the properties of graphite. Now, we will calculate graphene. The typical approach of creating two-dimensional material is to exfoliate the bulk structure. 
 
 ### Instructions
 
-2a. Copy the files ‘Si.nscf.in’ and ‘Si.dos.in’ to the directory containing calculations with the optimized lattice constant. Make sure that celldm(1) in these files is equal to the optimized lattice constant. Run the non-self-consistent calculation using the file ‘Si.nscf.in’. Note that the k-mesh is much larger than in the previous runs and a longer time will be required to finish the calculation. When the calculation is terminated successfully, run the file ‘Si.dos.in’ using the script 'dos.sh'. 
+2a. Look once again at the WTe2 supercell, and try to create a graphene supercell using the graphite structure from the previous week. Open your file in XCrysden or using the online tool and inspect what you made. Does it make sense? Run the self-consistent field calculation with or without spin-orbit coupling - note that carbon atoms are light so the influence of spin-orbit coupling will be negligible. 
 
-2b. The result will be written in a file ‘Si.dos.dat’ containing three columns and the value of Fermi energy at the beginning of the file. Plot energy vs dos(E) using your favorite plotting tool, for example, Gnuplot, Python, or if you really want, in Excel. Don’t forget to shift the Fermi energy printed at the beginning of the file. For example, type ‘module load gnuplot’, then ‘gnuplot’ and then use the command:
-plot 'Si.dos.dat' using ($1-<Fermi_energy>):2 with lines
-
-Compare the result with the plot below. Does it agree? Based on the calculated DOS, would you classify crystalline Si as an insulator, a semiconductor, or a metal?
-
-![Test](/images/dos.png)
+2b. Calculate the band structure along the G-M-K-M direction. How does it differ from graphite? Does it agree with the literature? 
