@@ -7,7 +7,7 @@ We will start with the DFT calculation of monolayer WTe2.
 
 ### Instructions
 
-1a. Copy the file wte2.scf.in as well as the associated pseudopotentials for both elements to your working directories. This material consists of heavy elements and it is a topological insulator so the spin-orbit interaction is switched on in the input file. You should also use fully relativistic pseudopotentials marked as 'rel' in the names of the files. Open the structure using XCrysDen or the online visualizer. What is the Bravais lattice? Does the structure make sense? Do you understand how the supercell is constructed? Try to display multiple unit cells along the z-direction. What is the distance between the monolayers?
+1a. Copy the file wte2.scf.in as well as the fully relativistic pseudopotentials (marked as 'rel') for both elements to your working directories. This material consists of heavy elements and it is a topological insulator so the spin-orbit interaction is switched on in the input file. Open the structure using XCrysDen or the online visualizer. What is the Bravais lattice? Does the structure make sense? Do you understand how the supercell is constructed? Try to display multiple unit cells along the z-direction. What is the distance between the monolayers?
 
 Now, prepare the job script similar to the previously used 'quantum.qsub'. Note that your calculations will be much longer due to the number of electrons and spin-orbit coupling. You will have to adjust your file. You can try first setting time to a few minutes, and check how long each electronic step takes. Estimate your calculation time, change the job script and rerun the calculation.
 
