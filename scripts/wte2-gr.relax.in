@@ -22,6 +22,9 @@
    conv_thr = 1.0d-9,
    electron_maxstep = 80,
 /
+&ions
+    ion_dynamics = 'bfgs',
+/
 ATOMIC_SPECIES
     C      12.0107  C.pbe-n-kjpaw_psl.1.0.0.UPF
     Te     127.6    Te.pbe-n-kjpaw_psl.1.0.0.UPF
