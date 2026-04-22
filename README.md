@@ -45,5 +45,4 @@ The challenge of this exercise is to make the calculation finish on the cluster.
 
 Visualize the result. Have the atoms moved a lot? Note: XCrysden allows one to visualize relaxation as animation. 
 
-4b. This exercise is optional.
-If you have time, run also the self-consistent calculation using the relaxed coordinates and the band structure. What can you say about BZ of the supercell? Which k-line do you choose for the band structure calculation?
+4b. If you have time, run also the self-consistent calculation using the relaxed coordinates and the band structure. What can you say about BZ of the supercell? Which k-line do you choose for the band structure calculation?
