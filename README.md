@@ -33,7 +33,7 @@ In this exercise, you will analyze the file prepared for the calculation Gr/WTe2
 
 3b. Once you understand how the heterostructure is constructed, use your own files for graphene and WTe2 monolayers, and try to create the heterostructure yourself. You can write your own code that creates (i) first the supercell of one material using the basic unit cell, and (ii) stacks the second monolayer with an adjusted lattice constant on top of it. Alternatively, several online tools can help you create heterostructures. You can use any of them if they do the job.
 
-## Assignment 4
+## Assignment 4 (HARD, OPTIONAL!)
 
 Now, we will relax the heterostructure. 
 
